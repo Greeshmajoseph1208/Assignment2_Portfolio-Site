@@ -1,7 +1,13 @@
+
 var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('home', { title: 'Home page' });
+});
+
+/* GET home page using /home. */
 router.get('/home', function(req, res, next) {
   res.render('home', { title: 'Home page' });
 });
@@ -18,7 +24,7 @@ router.get('/projects', function(req, res, next) {
 
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Me' });
+  res.render('contact', { title: 'Contact Me' });
 });
 
 module.exports = router;
