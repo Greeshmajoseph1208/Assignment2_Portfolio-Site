@@ -1,9 +1,90 @@
 
-<html>
   <%- include('partials/header') %>
     
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+   
+<main class="container my-5">
+
+  <h1 class="text-center mb-4">My Projects & Assignments</h1>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+
+    <!-- Project 1 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-header">
+          <i class="fa-solid fa-business-time" style="color: rgb(175, 19, 0);"></i>
+          Business Proposal / Plan
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            I created a business plan for a local cafe named
+            "Turnkey Cafe". The project focused on acquisition,
+            rebranding, and operational strategies to grow
+            the business. SWOT analysis and leadership planning
+            were key components of the project.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-header">
+          <i class="fa-brands fa-python" style="color: rgb(175, 19, 0);"></i>
+          Python Programming - Text Analysis
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            I developed a Python program for text analysis.
+            The program accepts an arbitrary number of
+            string arguments and displays character and
+            formatting metrics for each string.
+            The focus was learning the *args function.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-header">
+          <i class="fa-solid fa-house-signal" style="color: rgb(175, 19, 0);"></i>
+          Networking Basics
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            This was one of my first assignments as an
+            IT Networking student. It focused on
+            IPv4 address conversions, subnetting,
+            and VLSM network design.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-header">
+          <i class="fa-solid fa-briefcase" style="color: rgb(175, 19, 0);"></i>
+          Portfolio Website
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Created my first portfolio website using
+            HTML and CSS. I used responsive and fluid layouts. 
+            I also published my website using GitHub.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
     
   </body>
   <script src="/script/app.js"></script>

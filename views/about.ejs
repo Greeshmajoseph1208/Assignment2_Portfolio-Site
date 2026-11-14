@@ -1,12 +1,47 @@
 
-<html>
-  <%- include('partials/header') %>
+
+<%- include('partials/header') %>
       
   
-    <h1>About Me</h1>
-    <p>Who Am I? </p>
-    
-  </body>
-  <script src="/script/app.js"></script>
-  <%- include('partials/footer') %>
+<main class="container my-5">
+
+  <h1 class="text-center mb-5">About Me</h1>
+
+  <div class="row align-items-center g-4">
+
+    <!-- Profile Pic -->
+    <div class="col-md-4 text-center">
+
+      <img src="/assets/images/professional.jpg"
+           class="img-fluid" alt="Greeshma">
+
+    </div>
+
+    <!-- Introduction -->
+    <div class="col-md-8">
+
+      <h2>Introduction</h2>
+
+      <p>
+        Hello! I'm a second year Ontario Tech student.
+        I created this website as a part of my Web scripting
+        programming course.
+      </p>
+
+      <p>
+        In this website, I have explained some
+        of my projects and assignments that I did 
+        in academic journey. 
+      </p>
+
+    </div>
+
+  </div>
+
+ 
+
+</main>
+
+
+<%- include('partials/footer') %>
 </html>

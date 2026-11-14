@@ -1,23 +1,18 @@
-
 <%- include('partials/header') %>
 
+<main class="container my-5">
+  <h1><i class="fa-solid fa-house-user" style="color: rgb(175, 19, 0);"></i><%= title %></h1>
+  <p>Welcome to <%= title %></p>
+  <p>Hello! I'm an Information Technology student.</p>
+  <p>Welcome to my portfolio.</p>
+  <p>This website is a part of my Web Scripting language course.</p>
 
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p>Hello! I'm an Information Technology student.</p>
-      <p>Welcome to my portfolio.</p>
-      <p>This site is a part of my Web Scripting language project.</p>
-    <a href="/projects" class="btn btn-light">
-      View My Projects
-    </a>
+  <a href="/projects" class="btn btn-dark">My Projects</a>
+  <a href="/about" class="btn btn-dark">About Me</a>
+</main>
 
-    <a href="/about" class="btn btn-light">
-      About Me
-    </a>
-  </body>
-
-
-
-  <script src="/script/app.js"></script>
 <%- include('partials/footer') %>
+
+<script src="/script/app.js"></script>
+</body>
 </html>
